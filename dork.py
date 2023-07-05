@@ -40,13 +40,13 @@ print("dork : " '\033[93m' + dork + '\033[00m\n')
 params_to_remove = ['sa', 'ved', 'usg']
 
 # Iterate over the first three pages of search results
-for page in range(2):
+for page in range(3):
     # Calculate the start index for the current page
     start = page * 10
 
     # Construct the Google search URL for the current page
-    #url = f'https://google.com/search?q={dork}&start={start}'
-    url = f'https://google.com/search?q={dork}'
+    url = f'https://google.com/search?q={dork}&start={start}'
+    #url = f'https://google.com/search?q={dork}'
 
     # Send a GET request to the URL and store the response
     request_result = requests.get(url)
