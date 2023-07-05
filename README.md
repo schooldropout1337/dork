@@ -12,7 +12,7 @@ Dork Tool is a Python script that allows you to perform Google dorking, which is
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/xyz/dork.git
+   git clone https://github.com/schooldropout1337/dork
    ```
 
 2. Navigate to the cloned directory:
@@ -34,7 +34,10 @@ Dork Tool is a Python script that allows you to perform Google dorking, which is
    ```shell
    python dork.py -d <search_query>
    ```
-
+   
+```shell
+   python dork.py -d "site:.mil inurl:php?id"
+   ```
 Replace `<search_query>` with your desired search query. Enclose the query in quotes if it contains spaces or special characters.
 
 2. The script will retrieve the search results from Google and extract the URLs matching the search query.
