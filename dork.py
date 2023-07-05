@@ -40,7 +40,7 @@ print("dork : " '\033[93m' + dork + '\033[00m\n')
 params_to_remove = ['sa', 'ved', 'usg']
 
 # Iterate over the first three pages of search results
-for page in range(1):
+for page in range(2):
     # Calculate the start index for the current page
     start = page * 10
 
