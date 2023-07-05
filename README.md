@@ -1,3 +1,9 @@
+     _            _
+  __| | ___  _ __| | __
+ / _` |/ _ \| '__| |/ /
+| (_| | (_) | |  |   <
+ \__,_|\___/|_|  |_|\_/
+
 # Dork Tool
 
 Dork Tool is a Python script that allows you to perform Google dorking, which is a method of using advanced search operators to find specific information on the web using the Google search engine.
@@ -35,9 +41,6 @@ Dork Tool is a Python script that allows you to perform Google dorking, which is
    python dork.py -d <search_query>
    ```
    
-```shell
-   python dork.py -d "site:.mil inurl:php?id"
-   ```
 Replace `<search_query>` with your desired search query. Enclose the query in quotes if it contains spaces or special characters.
 
 2. The script will retrieve the search results from Google and extract the URLs matching the search query.
