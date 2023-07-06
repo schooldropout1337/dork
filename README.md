@@ -1,5 +1,10 @@
 ![Screenshot](https://raw.githubusercontent.com/schooldropout1337/dork/main/dork.jpg)
 
+# Demo
+https://youtube.com/shorts/8AF7oJf1BSw?feature=share
+
+https://youtube.com/shorts/cFWyPeFYDbI?feature=share
+
 # Dork Tool
 
 Dork Tool is a Python script that allows you to perform Google dorking, which is a method of using advanced search operators to find specific information on the web using the Google search engine.
